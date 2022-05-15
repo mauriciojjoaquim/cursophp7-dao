@@ -6,7 +6,7 @@ class Usuario {
     private $deslogin;
     private $dessenha;
     private $dtcadastro;
-
+      //Inicio dos SET e GET
     public function getIdusuario(){
 
         return $this->idusuario;
@@ -54,6 +54,7 @@ class Usuario {
         $this->dtcadastro = $value;
 
     }
+    //Final dos SET e GET
 
     public function loadById($id){
 
