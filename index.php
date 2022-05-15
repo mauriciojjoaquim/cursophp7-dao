@@ -20,16 +20,29 @@ require_once("config.php");
 //echo json_encode($search);
 
 //Carrega um usuario usando o login e a senha
-$usuario = new Usuario();
-$usuario->login("root", "123456");
-echo $usuario;
-
+//$usuario = new Usuario();
+//$usuario->login("root", "123456");
+//echo $usuario;
 
 //Cadastro
 //$aluno = new Usuario();
-//$aluno->setDeslogin("aluno");
+//$aluno->setDeslogin("Samanta");
 //$aluno->setDessenha("123456");
 //$aluno->insert();
 //echo $aluno;
+
+//Cadastro metodo construtor
+//$aluno = new Usuario("Roberta", "123456");
+//$aluno->insert();
+//echo $aluno;
+
+
+
+//UPDATE de usuario
+//$usuario = new Usuario();
+//$usuario->loadById(13);
+//$usuario->update("Silvania", "123456");
+//echo $usuario;
+
 
 ?>
