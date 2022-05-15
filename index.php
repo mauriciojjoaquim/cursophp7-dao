@@ -45,4 +45,14 @@ require_once("config.php");
 //echo $usuario;
 
 
+//DELETE Usuario do BD
+$usuario = new Usuario();
+$usuario->loadById(15);
+$usuario->delete();
+echo $usuario;
+
+
+
+
+
 ?>
